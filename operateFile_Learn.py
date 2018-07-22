@@ -1,0 +1,11 @@
+inputFile=open('inputData.txt','w')
+inputContent=raw_input()
+inputFile.write(inputContent)
+inputFile.close()
+
+outputFile = open('outputData.txt','w')
+inputFile=open('inputData.txt')
+list_File1=inputFile.read()
+outputFile.write(list_File1)
+inputFile.close()
+outputFile.close()
