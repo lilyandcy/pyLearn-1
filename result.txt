@@ -1,0 +1,4 @@
+Sam	: 149
+Yan	: 205
+Lily	: 376
+Liang	: 100
