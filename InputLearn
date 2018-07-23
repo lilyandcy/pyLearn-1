@@ -1,0 +1,6 @@
+printline = "What do you think I am?"
+print(printline)
+you = input()
+print("Oh, yes, I am a")
+print(you)
+
