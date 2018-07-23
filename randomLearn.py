@@ -7,6 +7,9 @@ guessResult = False
 
 while guessResult == False:
     answer = int(raw_input())
+    if answer <0:
+        print'exit Game!'
+        break
     if answer > num:
         print'Too big guess. Try again?'
     if answer < num:
@@ -14,3 +17,4 @@ while guessResult == False:
     if answer == num:
         print'You are absolutely right!'
         guessResult = True
+
