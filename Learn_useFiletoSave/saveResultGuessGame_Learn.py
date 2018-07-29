@@ -43,7 +43,7 @@ if game_times == 0 or times < min_times:
 total_times = total_times + times
 game_times = game_times +1
 
-scores[name]= [str(game_times), str(min_times), str(avg_times)]
+scores[name]= [str(game_times), str(min_times), str(total_times)]
 result = ''
 for n in scores:
     line = n+' '+' '.join(scores[n]) + '\n'
