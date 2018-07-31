@@ -7,3 +7,7 @@ print m
 textPhone ='I alike a 13876853981 and go to 18621906610 and :18616870959'
 p = re.findall(r'1[0-9]{10}', textPhone)
 print p
+
+textContent1='Hi, I am Shirley Hilton. I am his wife.'
+n=re.findall(r'I.*?e',textContent1)
+print n
